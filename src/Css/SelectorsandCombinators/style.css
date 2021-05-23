@@ -1,0 +1,65 @@
+
+/* Simple selectors (select elements based on name, id, class)*/
+* { /*Effect all Tags*/
+    background-color: brown;
+}
+
+p, a {
+    color : red;
+}
+
+h3.first-section-header {
+    color: aqua;
+}
+
+#main {
+    border: 2px solid bisque;
+}
+/*--------------------------------------------------------------------------------------*/
+
+/*CSS Combinators
+
+There are four different combinators in CSS:
+
+descendant selector (space)
+    -The descendant selector matches all elements that are descendants of a specified element
+    -The following example selects all <p> elements inside <div> elements
+
+
+
+child selector (>)
+    -The descendant selector matches all elements that are descendants of a specified element
+    -The following example selects all <p> elements that are children of a <div> element:
+
+
+
+adjacent sibling selector (+)
+    -The adjacent sibling selector is used to select an element that is directly after another specific element
+    Sibling elements must have the same parent element, and "adjacent" means "immediately following"
+    -The following example selects the first <p> element that are placed immediately after <div> elements:
+
+
+general sibling selector (~)
+    -The general sibling selector selects all elements that are siblings of a specified element.
+    -The following example selects all <p> elements that are siblings of <div> elements:
+
+
+*/
+
+#footer small {
+    color: green;
+}
+
+div > p {
+    color : yellow;
+}
+
+div + p {
+    background-color : aqua;
+}
+
+p ~ ul {
+    font-size: 50px;
+}
+
+
