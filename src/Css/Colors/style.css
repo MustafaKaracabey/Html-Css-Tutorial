@@ -1,0 +1,47 @@
+/*Colors
+https://www.w3schools.com/css/css_colors.asp  -->Reference Page
+
+rgb(255, 99, 71);   #ff6347     hsl(9, 100%, 64%)    hsla(9, 100%, 64%, 0.5)  -->All of theese ar format
+
+RGB Value:
+RGBA Value:
+    RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity for a color.
+    rgba(red, green, blue, alpha)
+
+HEX Value:
+    In CSS, a color can be specified using a hexadecimal value in the form:
+
+HSL Value:
+    In CSS, a color can be specified using hue, saturation, and lightness (HSL) in the form:
+
+    hsl(hue, saturation, lightness)
+
+    Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+
+    Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.
+
+    Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white
+
+    Experiment by mixing the HSL values below:
+
+HSLA Value
+hsla(hue, saturation, lightness, alpha)
+
+*/
+
+p.main-paragraph {
+    background-color: tomato;
+}
+
+p.second-section {
+    color: tomato;
+}
+
+p.third-section {
+    border: 2px solid tomato;
+}
+
+p.fourth-section {
+    background-color: rgb(255, 99, 71);
+
+}
