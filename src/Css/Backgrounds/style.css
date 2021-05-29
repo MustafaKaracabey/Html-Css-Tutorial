@@ -1,0 +1,69 @@
+/*Background Properties
+https://www.w3schools.com/css/css_background.asp  -->Reference Document
+*/
+
+/*Background Color */
+
+p.first-paragraph {
+    background-color: brown;
+}
+
+div.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: tomato;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+}
+
+div.box-1 {
+    background-color: rgba(255,0,0,0.5); /*lAST Value is actually opacity*/
+}
+
+div.box-2 {
+    opacity: 0.7;
+}
+
+div.box-3 {
+    opacity: 0.3; /*The opacity property specifies the opacity/transparency of an element. It can take a value from 0.0 - 1.0. The lower value, the more transparent:*/
+}
+
+/*Background Image*/
+/*
+The background-image property specifies an image to use as the background of an element. By default, the image is repeated so it covers the entire element.
+
+If the image above is repeated only horizontally (background-repeat: repeat-x);
+background-repeat : no-repeat
+ background-attachment: fixed;
+  background-attachment: scroll;
+
+   background: #ffffff url("img_tree.png") no-repeat right top;
+    background-color
+    background-image
+    background-repeat
+    background-attachment
+    background-position
+*/
+
+p.image-paragraph {
+    width: 1920px;
+    height: 1080px;
+    background-image: url("example-1.jpg");
+}
+
+p.second-image-paragraph {
+    width: 1080px;
+    height: 1080px;
+    background-image: url("example-1.jpg");
+    background-repeat: repeat-x ;
+}
+
+p.third-image-paragraph {
+    width: 200px;
+    height: 200px;
+    background-image: url("example-1.jpg");
+    background-position: right top;
+}
