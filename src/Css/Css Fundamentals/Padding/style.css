@@ -1,0 +1,32 @@
+/*Padding
+Reference Document: https://www.w3schools.com/css/css_padding.asp
+
+Padding is used to create space around an element's content, inside of any defined borders.
+
+*/
+
+
+div.main-paragraph {
+    border-width: 10px;
+    border-style: solid;
+    border-color: tomato;
+    width: 300px;
+    padding: 25px;
+}
+
+div.section-paragraph {
+    border-width: 10px;
+    border-style: solid;
+    border-color: tomato;
+    width: 300px;
+    padding: 50px;
+}
+
+div.section2-paragraph {
+    border-width: 10px;
+    border-style: solid;
+    border-color: tomato;
+    width: 300px;
+    padding: 50px;
+    box-sizing: border-box; /*Is just calculates inside box-model*/
+}
