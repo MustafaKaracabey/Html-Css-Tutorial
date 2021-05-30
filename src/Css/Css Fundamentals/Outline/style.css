@@ -1,0 +1,47 @@
+/*Outline Properties
+
+Refernce Docs : https://www.w3schools.com/css/css_outline.asp
+
+
+An outline is a line drawn outside the element's border.
+Outline differs from borders! Unlike border, the outline is drawn outside the element's border, and may overlap other content. Also, the outline is NOT a part of the element's dimensions;
+the element's total width and height is not affected by the width of the outline.
+
+
+Outline Width:
+The outline-width property specifies the width of the outline, and can have one of the following values:
+
+thin (typically 1px)
+medium (typically 3px)
+thick (typically 5px)
+A specific size (in px, pt, cm, em, etc)
+
+
+outline property is a shorthand property for setting the following individual outline properties:
+
+outline-width
+outline-style (required)
+outline-color
+
+With Same Border
+
+
+The outline-offset property adds space between an outline and the edge/border of an element. The space between an element and its outline is transparent.
+
+The following example specifies an outline 15px outside the border edge:
+*/
+
+
+p.main {
+    outline-style: solid;
+    border: 3px dotted green;
+}
+
+p.section {
+    border: 4px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+    outline-offset: 15px; /*Border ile Outline arasına boşluk bırakıyor*/
+    margin-top: 100px;
+}
