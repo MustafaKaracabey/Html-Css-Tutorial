@@ -1,0 +1,30 @@
+/*Margin
+Reference Docs: https://www.w3schools.com/css/css_margin.asp
+
+
+All the margin properties can have the following values:
+
+auto - the browser calculates the margin
+length - specifies a margin in px, pt, cm, etc.
+% - specifies a margin in % of the width of the containing element
+inherit - specifies that the margin should be inherited from the parent element
+*/
+
+
+h1 {
+    margin: 0 0 50px 0;
+}
+
+h2 {
+    margin: 20px 0 0 0;
+}
+
+div.box {
+    width: 250px;
+    height: 250px;
+    border: 3px solid tomato;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    margin: 7px;
+}
