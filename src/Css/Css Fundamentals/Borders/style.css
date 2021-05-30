@@ -1,0 +1,43 @@
+/*Borders
+https://www.w3schools.com/css/css_border.asp -->Reference Documents
+
+
+Border-syle:
+    dotted - Defines a dotted border
+    dashed - Defines a dashed border
+    solid - Defines a solid border
+    double - Defines a double border
+    groove - Defines a 3D grooved border. The effect depends on the border-color value
+    ridge - Defines a 3D ridged border. The effect depends on the border-color value
+    inset - Defines a 3D inset border. The effect depends on the border-color value
+    outset - Defines a 3D outset border. The effect depends on the border-color value
+    none - Defines no border
+    hidden - Defines a hidden border
+
+*/
+
+p.main-paragraph {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: red;
+}
+
+p.border {
+    border-style: solid;
+    border-color:red green blue yellow; /* red top, green right, blue bottom and yellow left */
+}
+
+p.border-2 {
+    border-style: dotted solid double dashed;
+}
+
+p.border-3 {
+    border: 5px solid red; /*border-width border-style (required) border-color*/
+}
+
+p.border-4 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: tomato;
+    border-radius: 5px;
+}
