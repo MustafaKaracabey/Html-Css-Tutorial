@@ -3,7 +3,19 @@
 
 Official Docs : https://www.w3schools.com/css/css_text.asp
 
-*/
+When the text-align property is set to "justify", each line is stretched so that every line has equal width,
+and the left and right margins are straight (like in magazines and newspapers):
+
+
+When the text-align property is set to "justify",
+ each line is stretched so that every line has equal width, and the left and right margins are straight (like in magazines and newspapers):
+
+
+The vertical-align property sets the vertical alignment of an element.
+
+This example demonstrates how to set the vertical alignment of an image in a text:
+ */
+
 
 
 
@@ -15,4 +27,48 @@ body {
 h1 {
     background-color: black;
     color: white;
+}
+
+div.box {
+    height: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: tomato;
+    text-align: center;
+}
+
+div.box-2 {
+    height: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: tomato;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+div.box-3 p {
+    direction: rtl; /*Right to Left is The Flow*/
+}
+
+div.box-4 {
+    height: 100px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: tomato;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+}
+
+p.conf {
+    text-transform: capitalize; /*UpperCase,LowerCase,Capitalize*/
+    text-indent: 50px;
+    letter-spacing: 5px;
+    line-height: 2;
+    word-spacing: 10px;
+}
+
+span.text-1 {
+    text-shadow: 2px 2px 5px red;
 }
